@@ -6,10 +6,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="stylesheet" href="styles/styles.css">
+  <link rel="stylesheet" href="styles/general.css">
 
   <title>Masa</title>
 </head>
 <body>
+  <canvas id="weather-canvas"></canvas>
   <nav id="site-nav">
     <a href="https://github.com/MasaBot/Masa/blob/main/docs/LINKS.md">Documentation</a>
     <a href="https://github.com/MasaBot/Masa">Repository</a>
@@ -17,11 +19,14 @@
   <img src="assets/master_logo_protected.svg" alt="Masa logo" id="logo" width="500">
   <p id="motd">The <a target="_blank" href="https://discord.com/">Discord</a> bot for <a target="_blank" href="https://www.minecraft.net/">Minecraft</a> servers.</p>
   <h3>How to setup?</h3>
-  <code>$ git clone https://github.com/MasaBot/Masa.git
-    $ cd Masa
-    $ npm install
-    $ npm start
+  <code><span class="newline">$ </span><span class="command">git</span> clone <a href="https://github.com/MasaBot/Masa" target="_blank">https://github.com/MasaBot/Masa.git</a>
+    <span class="newline">$ </span><span class="command">cd</span> Masa
+    <span class="newline">$ </span><span class="command">npm</span> install
+    <span class="newline">$ </span><span class="command">npm</span> start
   </code>
   <footer><p>Copyright &copy; 2022 <a href="https://github.com/Tembero11">Teemu Silver</a></p></footer>
+
+  <script src="main.js"></script>
+  <script src="copy.js"></script>
 </body>
 </html>

@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;700&display=swap');
+
+:root {
+  --main-bg-color-light: #0c1339;
+  --main-bg-color-dark: #060a1f;
+  --main-text-color: white;
+  --main-font: 'Baloo 2', cursive;
+  --navbar-height: 70px;
+  --sidebar-width: 260px;
+}
+
+h3 {
+  font-size: 50px;
+  margin: 10px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+body {
+    background: var(--main-bg-color-light);
+    color: var(--main-text-color);
+    font-family: var(--main-font);
+    text-align: center;
+    /* overflow: hidden; */
+  }
