@@ -3,16 +3,29 @@
 }
 
 #logo {
-  width: 30%;
+  position: absolute;
+  left: 2%;
+  top: 2%;
+  width: 10%;
+}
+
+#content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 #site-nav {
   position: absolute;
-  right: 0px;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
 }
 #site-nav > a {
   padding: 10px;
   margin-left: 10px;
+  border-radius: 10px;
   background: var(--main-bg-color-light);
   transition: 200ms background;
 }
